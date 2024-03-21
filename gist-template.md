@@ -42,6 +42,23 @@ This regex pattern matches the exact word "hello" at the beginning and end of a 
     '+' matches one or more occurrences.
     '*' matches zero or more occurrences.
     '{n}' matches exactly n occurrences.
+- Quantifiers in regular expressions are used to specify how many times a character or a group of characters should occur in the input text. They allow you to define repetition patterns, such as matching zero or more occurrences, one or more occurrences, or a specific number of occurrences.
+
+Here are some common quantifiers and their meanings:
+
+    '*': Matches zero or more occurrences of the preceding character or group. For example, 'a*' will match "", "a", "aa", "aaa", and so on.
+
+    '+': Matches one or more occurrences of the preceding character or group. For example, a+ will match "a", "aa", "aaa", and so on, but not "".
+
+    '?': Matches zero or one occurrence of the preceding character or group. It makes the preceding character or group optional. For example, 'colou?r' will match both "color" and "colour".
+
+    '{n}': Matches exactly n occurrences of the preceding character or group. For example, 'a{3}' will match "aaa" but not "aa" or "aaaa".
+
+    '{n,}': Matches n or more occurrences of the preceding character or group. For example, 'a{2,}' will match "aa", "aaa", "aaaa", and so on.
+
+    '{n,m}': Matches between n and m occurrences of the preceding character or group, inclusive. For example, 'a{2,4}' will match "aa", "aaa", or "aaaa", but not "a" or "aaaaa".
+
+- Quantifiers can be applied to individual characters, groups of characters, or even to other quantifiers. They provide a powerful way to specify repetition patterns in regular expressions, allowing you to match complex patterns in text efficiently.
 
 ### OR Operator
 - The OR operator allows you to match one of several patterns. 
