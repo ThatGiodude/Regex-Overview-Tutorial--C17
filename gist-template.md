@@ -1,6 +1,6 @@
-# RegExBroken Down
+# RegEx Broken Down
 
-Introductory paragraph (replace this with your text)
+Explained below is an in depth breakdown of RegEx and some it's components and how it's used to easier understand.
 
 ## Summary
 
